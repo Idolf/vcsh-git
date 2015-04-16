@@ -1,6 +1,9 @@
 [user]
-	name = Morten Brøns-Pedersen
-	email = f@ntast.dk
+	name = Mathias Svensson
+	email = idolf@pwnies.dk
+	signingkey = 2F2FF530
+[core]
+	whitespace = trailing-space,space-before-tab
 [push]
 	default = simple
 [init]
