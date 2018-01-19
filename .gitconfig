@@ -1,11 +1,13 @@
 [user]
 	name = Mathias Svensson
-	email = idolf@pwnies.dk
+	email = freaken@freaken.dk
 	signingkey = 2F2FF530
 [core]
 	whitespace = trailing-space,space-before-tab
 [push]
 	default = simple
+	recurseSubmodules = on-demand
+	followTags = true
 [init]
 	templatedir = ~/.git_template
 [alias]
@@ -36,3 +38,6 @@
 	pop = stash pop
 	track = checkout --track
 	undo = reset --hard
+[log]
+	decorate = auto
+[fetch]
