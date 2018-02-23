@@ -41,3 +41,7 @@
 [log]
 	decorate = auto
 [fetch]
+[merge]
+	conflictstyle = diff3
+[rerere]
+	enabled = 1
